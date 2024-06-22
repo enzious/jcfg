@@ -1,6 +1,4 @@
-mod fmt;
+mod error;
+mod ser;
 
-pub struct Serializer<'d> {
-    dst: &'d mut String,
-    settings: crate::fmt::DocumentFormatter,
-}
+pub use ser::{to_string, Serializer};

@@ -1,8 +1,11 @@
 [package]
 name = "jcfg"
-description = "A library for deserializing/serializing jcfg files."
+description = "A library for serializing jcfg files."
 license = "MIT"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [dependencies]
+indent = "0.1.1"
+serde = "1.0.203"
+serde_derive = "1.0.203"
