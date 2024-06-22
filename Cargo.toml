@@ -2,8 +2,9 @@
 name = "jcfg"
 description = "A library for serializing jcfg files."
 license = "MIT"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
+repository = "https://github.com/enzious/jcfg"
 
 [dependencies]
 indent = "0.1.1"
